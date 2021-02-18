@@ -27,17 +27,6 @@
    GND (pin 38)  -> GND on LCD bridge board
 */
 
-#define UART_ID_0 uart0
-#define BAUD_RATE 9600
-#define DATA_BITS 8
-#define STOP_BITS 1
-#define PARITY    UART_PARITY_NONE
-
-// We are using pins 0 and 1, but see the GPIO function select table in the
-// datasheet for information on which other pins can be used.
-#define UART_TX_PIN_0 0
-#define UART_RX_PIN_0 1
-
 // commands
 const int LCD_CLEARDISPLAY = 0x01;
 const int LCD_RETURNHOME = 0x02;
