@@ -3,7 +3,7 @@ Converted Arduino LCD BigNumber to Pico C solution
 
 This repository is just a test of using BigNumbers on a solution using RPi Pico and a LCD1602 display.
 
-The code was used on a small project where the Pico ha a 2.4GHz radio module attached to UART0.
+The code was used on a small project where the Pico have a 2.4GHz radio module attached to UART0.
 
 Another module was installed on a Rpi 4 sending information to the Pico (time, weather data, power usage etc).
 
